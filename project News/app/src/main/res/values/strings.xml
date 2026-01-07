@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">News Now?!</string>
+    <string name="already_user"><u>already_user</u></string>
+    <string name="forget"><u>Forgot_your_password</u></string>
+    <string name="Not"><u>not_a_User?</u></string>
+</resources>

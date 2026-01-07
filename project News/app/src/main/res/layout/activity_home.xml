@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#494949"
+tools:context=".homeActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="#000"
+        android:shadowColor="#BA68C8"
+        android:shadowRadius="9"
+        android:shadowDy="9"
+        android:shadowDx="9"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:text="Category"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sports_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/shape"
+        android:text="Sports News"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="32dp"
+        style="@style/Tvstyle"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tech_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:text="Technology News"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="32dp"
+        style="@style/Tvstyle"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/science_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:text="Sscience News"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="32dp"
+        style="@style/Tvstyle"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/health_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:text="Health News"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="32dp"
+        style="@style/Tvstyle"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/business_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:text="Business News"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="32dp"
+        style="@style/Tvstyle"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/entertainment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:text="Entertainment News"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="32dp"
+        style="@style/Tvstyle"/>
+    <Button
+        android:id="@+id/Logout_btn"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Log Out"
+        android:textSize="22dp"
+        android:layout_marginHorizontal="32dp"
+        style="@style/Tvstyle"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">project Stories</string>
+    <string name="exit" />
+    <string name="do_you_want_to_exit" />
+    <string name="ok" />
+    <string name="no" />
+</resources>
