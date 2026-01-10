@@ -28,8 +28,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //
-        //للتاكد من لينك نذهب الي موقع json formatter
+        
         loadNews()
         binding.swipeRefresh.setOnRefreshListener {
             loadNews()
