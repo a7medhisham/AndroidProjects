@@ -3,10 +3,7 @@ package com.example.candroid2
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import com.example.candroid2.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -14,71 +11,116 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 class loginActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityLoginBinding
     private lateinit var auth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
-        auth = Firebase.auth
-        binding.loginBtn.setOnClickListener {
-            val email = binding.emailEt.text.toString()
-            val pass = binding.passEt.text.toString()
 
-            if (email.isBlank() || pass.isBlank())
-                Toast.makeText(this, "Missing fields", Toast.LENGTH_SHORT).show()
-            else {
+        setupFirebase()
+        setupClickListeners()
+        setupAnimations()
+    }
+
+    private fun setupFirebase() {
+        auth = Firebase.auth
+    }
+
+    private fun setupClickListeners() {
+        binding.btnLoginUp.setOnClickListener {
+            val email = binding.editEmail.text.toString()
+            val password = binding.editPassword.text.toString()
+
+            if (email.isBlank() || password.isBlank()) {
+                showToast(getString(R.string.missing_fields))
+            } else {
                 binding.progress.isVisible = true
-                login(email,pass)
+                loginUser(email, password)
             }
         }
-        binding.notUser.setOnClickListener {
-            startActivity(Intent(this, signupActivity::class.java))
-            finish()
-        }
-        binding.forgetPass.setOnClickListener {
-            val email = binding.emailEt.text.toString()
-            binding.progress.isVisible=true
-            Firebase.auth.sendPasswordResetEmail(email)
-                .addOnCompleteListener { task ->
-                    if (task.isSuccessful) {
-                        binding.progress.isVisible=false
-                        Toast.makeText(this, "Email sent!", Toast.LENGTH_SHORT).show()
-                    }
-                }
 
+        binding.notUser.setOnClickListener {
+            navigateToSignup()
+        }
+
+        binding.forgetPass.setOnClickListener {
+            handlePasswordReset()
         }
     }
 
-    private fun login(email: String, pass: String) {
-        auth.signInWithEmailAndPassword(email, pass)
+    private fun setupAnimations() {
+        binding.root.alpha = 0f
+        binding.root.animate()
+            .alpha(1f)
+            .setDuration(1500)
+            .start()
+    }
+
+    private fun loginUser(email: String, password: String) {
+        auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
-                    if (auth.currentUser!!.isEmailVerified){
-                        startActivity(Intent(this,homeActivity::class.java))
-                        finish()
+                    val user = auth.currentUser
+                    if (user != null && user.isEmailVerified) {
+                        navigateToHome()
+                    } else {
+                        showToast(getString(R.string.check_your_email))
+                        binding.progress.isVisible = false
                     }
-                    else
-                        Toast.makeText(this, "Check Your Email!!!!!!!", Toast.LENGTH_SHORT).show()
                 } else {
-                    Toast.makeText(this, "${task.exception?.message}", Toast.LENGTH_SHORT).show()
-                    binding.progress.isVisible=false
+                    showToast(task.exception?.message ?: "Login failed")
+                    binding.progress.isVisible = false
                 }
             }
     }
-    public override fun onStart() {
+
+    private fun handlePasswordReset() {
+        val email = binding.editEmail.text.toString()
+
+        if (email.isBlank()) {
+            showToast(getString(R.string.please_enter_your_email_first))
+            return
+        }
+
+        binding.progress.isVisible = true
+
+        Firebase.auth.sendPasswordResetEmail(email)
+            .addOnCompleteListener { task ->
+                binding.progress.isVisible = false
+
+                if (task.isSuccessful) {
+                    showToast(getString(R.string.email_sent))
+                } else {
+                    val errorMessage = task.exception?.message ?: "Failed to send reset email"
+                    showToast(errorMessage)
+                }
+            }
+    }
+
+    private fun navigateToSignup() {
+        startActivity(Intent(this, signupActivity::class.java))
+        finish()
+    }
+
+    private fun navigateToHome() {
+        startActivity(Intent(this, homeActivity::class.java))
+        finish()
+    }
+
+    private fun showToast(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onStart() {
         super.onStart()
-        // Check if user is signed in (non-null) and update UI accordingly.
+
         val currentUser = auth.currentUser
         if (currentUser != null && currentUser.isEmailVerified) {
-            startActivity(Intent(this,homeActivity::class.java))
-            finish()
+            navigateToHome()
         }
     }
 }

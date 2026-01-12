@@ -5,10 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
-import com.bumptech.glide.Glide
 import com.example.candroid2.databinding.ActivityMainBinding
 import com.google.android.gms.ads.AdRequest
 import okhttp3.OkHttpClient
@@ -28,8 +25,6 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //
-        //للتاكد من لينك نذهب الي موقع json formatter
         loadNews()
         binding.swipeRefresh.setOnRefreshListener {
             loadNews()

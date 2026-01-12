@@ -3,4 +3,15 @@
     <string name="already_user"><u>already_user</u></string>
     <string name="forget"><u>Forgot_your_password</u></string>
     <string name="Not"><u>not_a_User?</u></string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="missing_fields">Missing Fields</string>
+    <string name="password_too_short">Password Too Short</string>
+    <string name="check_your_email">Check Your Email</string>
+    <string name="login">Login</string>
+    <string name="not_account">Not Account</string>
+    <string name="please_enter_your_email_first">Please Enter Your Email First</string>
+    <string name="email_sent">Email Sent</string>
+    <string name="failed">Failed</string>
 </resources>

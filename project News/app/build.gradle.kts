@@ -64,5 +64,8 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
     //authoritaion
     implementation("com.google.firebase:firebase-auth")
+    //lottie
+    implementation("com.airbnb.android:lottie:6.4.0")
+
 
 }
