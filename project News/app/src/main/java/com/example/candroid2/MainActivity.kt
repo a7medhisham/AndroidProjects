@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+       
         loadNews()
         binding.swipeRefresh.setOnRefreshListener {
             loadNews()
