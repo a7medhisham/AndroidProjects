@@ -1,0 +1,55 @@
+package com.example.projectstories
+
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import com.example.projectstories.databinding.ItemStoryImageBinding
+
+class StoryImagesAdapter(private val storyId: String) :
+    RecyclerView.Adapter<StoryImagesAdapter.ImageViewHolder>() {
+
+    private val images = getImagesForStory(storyId)
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageViewHolder {
+        val binding = ItemStoryImageBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        )
+        return ImageViewHolder(binding)
+    }
+
+    override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
+        holder.bind(images[position])
+    }
+
+    override fun getItemCount(): Int = images.size
+
+    inner class ImageViewHolder(
+        private val binding: ItemStoryImageBinding
+    ) : RecyclerView.ViewHolder(binding.root) {
+
+        fun bind(imageRes: Int) {
+            binding.imageView.setImageResource(imageRes)
+            binding.imageView.adjustViewBounds = true
+            binding.imageView.scaleType =
+                android.widget.ImageView.ScaleType.FIT_CENTER
+        }
+    }
+
+    private fun getImagesForStory(storyId: String): List<Int> {
+        return when (storyId) {
+            "story_1" -> listOf(R.drawable.duck, R.drawable.duck_2, R.drawable.duck_3)
+            "story_2" -> listOf(R.drawable.lion, R.drawable.lion_2, R.drawable.lion_3)
+            "story_3" -> listOf(R.drawable.cat, R.drawable.cat_2, R.drawable.cat_3)
+            "story_4" -> listOf(R.drawable.dog, R.drawable.dog_2, R.drawable.dog_3)
+            "story_5" -> listOf(R.drawable.giraffe, R.drawable.giraffe_2, R.drawable.giraffe_3)
+            "story_6" -> listOf(R.drawable.elephant, R.drawable.elephant_2, R.drawable.elephant_3)
+            "story_7" -> listOf(R.drawable.horse, R.drawable.horse_2, R.drawable.horse_3)
+            "story_8" -> listOf(R.drawable.monkey, R.drawable.monkey_2, R.drawable.monkey_3)
+            "story_9" -> listOf(R.drawable.rabbit, R.drawable.rabbit_2, R.drawable.rabbit_3)
+            "story_10" -> listOf(R.drawable.penguin, R.drawable.penguin_2, R.drawable.penguin_3)
+            else -> listOf(R.drawable.duck, R.drawable.duck_2, R.drawable.duck_3)
+        }
+    }
+}

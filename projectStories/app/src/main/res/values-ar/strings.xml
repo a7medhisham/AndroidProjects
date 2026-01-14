@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">قصص الأطفال</string>
+    <string name="exit">خروج</string>
+    <string name="do_you_want_to_exit">هل تريد الخروج؟</string>
+    <string name="ok">نعم</string>
+    <string name="no">لا</string>
+    <string name="the_story_of_a_duck">قصة البطة</string>
+    <string name="the_story_of_a_lion">قصة الأسد</string>
+    <string name="the_story_of_a_cat">قصة القطة</string>
+    <string name="the_story_of_a_dog">قصة الكلب</string>
+    <string name="the_story_of_a_giraffe">قصة الزرافة</string>
+    <string name="the_story_of_an_elephant">قصة الفيل</string>
+    <string name="the_story_of_a_horse">قصة الحصان</string>
+    <string name="the_story_of_a_monkey">قصة القرد</string>
+    <string name="the_story_of_a_rabbit">قصة الأرنب</string>
+    <string name="the_story_of_a_penguin">قصة البطريق</string>
+    <string name="stories">القصص</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="small_text">نص صغير</string>
+    <string name="medium_text">نص متوسط</string>
+    <string name="large_text">نص كبير</string>
+    <string name="ar">العربية</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="deutsch">الألمانية</string>
+    <string name="fran_ais">الفرنسية</string>
+    <string name="setting">الإعدادات</string>
+    <string name="font_size">حجم الخط</string>
+    <string name="this_is_a_sample_text_preview">هذا نص تجريبي للمعاينة.</string>
+    <string name="select_size">اختر الحجم:</string>
+</resources>

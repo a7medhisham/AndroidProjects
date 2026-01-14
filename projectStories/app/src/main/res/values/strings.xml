@@ -1,7 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">project Stories</string>
-    <string name="exit" />
-    <string name="do_you_want_to_exit" />
-    <string name="ok" />
-    <string name="no" />
+    <string name="app_name">Stories App</string>
+    <string name="exit">Exit</string>
+    <string name="do_you_want_to_exit">Do You Want To Exit</string>
+    <string name="ok" >yes</string>
+    <string name="no" >No</string>
+    <string name="the_story_of_a_duck">The story of a duck</string>
+    <string name="the_story_of_a_lion">The story of a lion</string>
+    <string name="the_story_of_a_cat">The story of a cat</string>
+    <string name="the_story_of_a_dog">The story of a dog</string>
+    <string name="the_story_of_a_giraffe">The story of a giraffe</string>
+    <string name="the_story_of_an_elephant">The story of an elephant</string>
+    <string name="the_story_of_a_horse">The story of a horse</string>
+    <string name="the_story_of_a_monkey">The story of a monkey</string>
+    <string name="the_story_of_a_rabbit">The story of a rabbit</string>
+    <string name="the_story_of_a_penguin">The story of a penguin</string>
+    <string name="stories">Stories</string>
+    <string name="change_language">Change Language</string>
+    <string name="settings">Settings</string>
+    <string name="small_text">Small Text</string>
+    <string name="medium_text">Medium Text</string>
+    <string name="large_text">Large Text</string>
+    <string name="ar">العربية</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="fran_ais">Français</string>
+    <string name="setting">Settings</string>
+    <string name="font_size">Font Size</string>
+    <string name="this_is_a_sample_text_preview">This is a sample text preview.</string>
+    <string name="select_size">Select size:</string>
 </resources>

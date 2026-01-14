@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kindergeschichten</string>
+    <string name="exit">Beenden</string>
+    <string name="do_you_want_to_exit">Möchten Sie die App beenden?</string>
+    <string name="ok">Ja</string>
+    <string name="no">Nein</string>
+    <string name="the_story_of_a_duck">Die Geschichte der Ente</string>
+    <string name="the_story_of_a_lion">Die Geschichte des Löwen</string>
+    <string name="the_story_of_a_cat">Die Geschichte der Katze</string>
+    <string name="the_story_of_a_dog">Die Geschichte des Hundes</string>
+    <string name="the_story_of_a_giraffe">Die Geschichte der Giraffe</string>
+    <string name="the_story_of_an_elephant">Die Geschichte des Elefanten</string>
+    <string name="the_story_of_a_horse">Die Geschichte des Pferdes</string>
+    <string name="the_story_of_a_monkey">Die Geschichte des Affen</string>
+    <string name="the_story_of_a_rabbit">Die Geschichte des Kaninchens</string>
+    <string name="the_story_of_a_penguin">Die Geschichte des Pinguins</string>
+    <string name="stories">Geschichten</string>
+    <string name="change_language">Sprache ändern</string>
+    <string name="settings">Einstellungen</string>
+    <string name="small_text">Kleiner Text</string>
+    <string name="medium_text">Mittlerer Text</string>
+    <string name="large_text">Großer Text</string>
+    <string name="ar">Arabisch</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="english">Englisch</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="fran_ais">Französisch</string>
+    <string name="setting">Einstellungen</string>
+    <string name="font_size">Schriftgröße</string>
+    <string name="this_is_a_sample_text_preview">Dies ist eine Beispieltext-Vorschau.</string>
+    <string name="select_size">Größe auswählen:</string>
+</resources>

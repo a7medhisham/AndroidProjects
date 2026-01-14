@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Histoires pour enfants</string>
+    <string name="exit">Quitter</string>
+    <string name="do_you_want_to_exit">Voulez-vous quitter ?</string>
+    <string name="ok">Oui</string>
+    <string name="no">Non</string>
+    <string name="the_story_of_a_duck">L histoire du canard</string>
+    <string name="the_story_of_a_lion">L histoire du lion</string>
+    <string name="the_story_of_a_cat">L histoire du chat</string>
+    <string name="the_story_of_a_dog">L histoire du chien</string>
+    <string name="the_story_of_a_giraffe">L histoire de la girafe</string>
+    <string name="the_story_of_an_elephant">L histoire de l éléphant</string>
+    <string name="the_story_of_a_horse">L histoire du cheval</string>
+    <string name="the_story_of_a_monkey">L histoire du singe</string>
+    <string name="the_story_of_a_rabbit">L histoire du lapin</string>
+    <string name="the_story_of_a_penguin">L histoire du pingouin</string>
+    <string name="stories">Histoires</string>
+    <string name="change_language">Changer la langue</string>
+    <string name="settings">Paramètres</string>
+    <string name="small_text">Texte petit</string>
+    <string name="medium_text">Texte moyen</string>
+    <string name="large_text">Texte grand</string>
+    <string name="ar">Arabe</string>
+    <string name="select_language">Choisir la langue</string>
+    <string name="english">Anglais</string>
+    <string name="deutsch">Allemand</string>
+    <string name="fran_ais">Français</string>
+    <string name="setting">Paramètres</string>
+    <string name="font_size">Taille de la police</string>
+    <string name="this_is_a_sample_text_preview">Ceci est un aperçu de texte exemple.</string>
+    <string name="select_size">Sélectionner la taille :</string>
+</resources>

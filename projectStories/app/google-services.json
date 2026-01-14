@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640731337404",
+    "project_id": "story-app-f8b21",
+    "storage_bucket": "story-app-f8b21.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640731337404:android:dbf1775e5df20babe4b6b9",
+        "android_client_info": {
+          "package_name": "com.example.projectstories"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD78lt_Ur1BAxVrVzaYJDmci9E0dRaDSos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

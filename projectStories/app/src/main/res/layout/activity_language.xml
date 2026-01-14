@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8FB"
+    android:padding="24dp"
+    tools:context=".LanguageActivity">
+
+    <TextView
+        android:id="@+id/tvSelectLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1F2937"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/tvSelectLanguage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnArabic"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/ar"
+                android:textSize="18sp"
+                android:textColor="#000"
+                app:cornerRadius="28dp"
+                android:gravity="center"
+                android:paddingStart="24dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:backgroundTint="@color/white"
+                android:layout_marginBottom="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEnglish"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/english"
+                android:textSize="18sp"
+                android:textColor="#1F2937"
+                app:cornerRadius="28dp"
+                android:gravity="center"
+                android:paddingStart="24dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:strokeColor="#D1D5DB"
+                app:strokeWidth="1dp"
+                android:layout_marginBottom="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGerman"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/deutsch"
+                android:textSize="18sp"
+                android:textColor="#1F2937"
+                app:cornerRadius="28dp"
+                android:gravity="center"
+                android:paddingStart="24dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:strokeColor="#D1D5DB"
+                app:strokeWidth="1dp"
+                android:layout_marginBottom="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFrench"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/fran_ais"
+                android:textSize="18sp"
+                android:textColor="#1F2937"
+                app:cornerRadius="28dp"
+                android:gravity="center"
+                android:paddingStart="24dp"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                app:strokeColor="#D1D5DB"
+                app:strokeWidth="1dp"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

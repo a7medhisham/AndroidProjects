@@ -1,5 +1,7 @@
 package com.example.projectstories
 
-import androidx.annotation.DrawableRes
-
-data class Stories(val text1:String,@DrawableRes val picture:Int )
+data class Stories( val id: String = "",
+                    val title: Map<String, String> = emptyMap(),
+                    val text: Map<String, String> = emptyMap(),
+                    val images: List<String> = emptyList(),
+                    val audio: Map<String, String> = emptyMap())

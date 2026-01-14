@@ -31,9 +31,6 @@
             tools:text="@tools:sample/full_names"
             android:textSize="20sp"
             android:id="@+id/text"
-            android:shadowColor="#A4A3A3"
-            android:shadowDx="5"
-            android:shadowDy="6"
             android:shadowRadius="4"
             android:textStyle="bold"/>
     </LinearLayout>
