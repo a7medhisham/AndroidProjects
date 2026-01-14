@@ -1,2 +1,12 @@
-app/google-services.json
+# ملفات Google السرية
+**/google-services.json
+**/*-services.json
+
+# ملفات البناء
 /build
+/.gradle
+
+# المفاتيح
+*.jks
+*.keystore
+local.properties
