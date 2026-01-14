@@ -4,6 +4,8 @@ Interactive kids stories app with animals, images, sounds, and text-to-speech su
 
 The app helps children enjoy stories by listening, reading, and watching images change automatically.
 
+Note: It's on a hidden page in the app. If you find it, let me know :). 
+
 ---
 
 ##  Features
@@ -29,6 +31,7 @@ The app helps children enjoy stories by listening, reading, and watching images 
 - **TextToSpeech (TTS)**
 - **MediaPlayer**
 - **Coroutines**
+- **firebaseStore** 
 
 ---
 
