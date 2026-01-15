@@ -22,7 +22,7 @@ class PageActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        Toast.makeText(this, "Welcome The Party :D", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, getString(R.string.welcome_the_party_d), Toast.LENGTH_SHORT).show()
         val text: TextView = findViewById(R.id.titleText)
         text.setOnClickListener {
             val i = Intent(this, MainActivity::class.java)

@@ -30,4 +30,26 @@
     <string name="font_size">Font Size</string>
     <string name="this_is_a_sample_text_preview">This is a sample text preview.</string>
     <string name="select_size">Select size:</string>
+    <string name="the_story_of_a_tiger">the story of a tiger</string>
+    <string name="the_story_of_a_turtle">the story of a turtle</string>
+    <string name="the_story_of_a_bear">the story of a bear</string>
+    <string name="the_story_of_a_dear">the story of a dear</string>
+    <string name="the_story_of_a_owl">the story of a owl</string>
+    <string name="the_story_of_a_sloth">the story of a sloth</string>
+    <string name="the_story_of_a_fox">the story of a fox</string>
+    <string name="the_story_of_a_wolf">the story of a wolf</string>
+    <string name="the_story_of_a_ant">the story of a ant</string>
+    <string name="the_story_of_a_bee">the story of a bee</string>
+    <string name="play">Play</string>
+    <string name="party">PARTY</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="language_not_supported">Language not supported</string>
+    <string name="story_not_found">Story not found</string>
+    <string name="speech_error_occurred">Speech error occurred</string>
+    <string name="welcome_kids">"Welcome Kids "</string>
+    <string name="welcome_the_party_d">Welcome The Party :D</string>
+    <string name="small_selected">Small selected</string>
+    <string name="medium_selected">Medium selected</string>
+    <string name="large_selected">Large selected</string>
 </resources>

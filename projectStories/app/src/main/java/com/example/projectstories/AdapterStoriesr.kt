@@ -18,9 +18,9 @@ class AdapterSories(
     private var mediaPlayer: MediaPlayer? = null
 
     class Item(view: View) : RecyclerView.ViewHolder(view) {
-        val image: ImageView = view.findViewById(R.id.image)
-        val text: TextView = view.findViewById(R.id.text)
-        val card: CardView = view.findViewById(R.id.card)
+        val image: ImageView = view.findViewById(R.id.ivStory)
+        val text: TextView = view.findViewById(R.id.tvTitle)
+        val card: CardView = view.findViewById(R.id.cardView)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Item {
@@ -36,8 +36,14 @@ class AdapterSories(
         holder.image.setImageResource(story.picture)
         holder.text.text = story.text1
 
-        holder.card.setOnClickListener {
+        if (story.isNew) {
+            holder.text.setCompoundDrawablesWithIntrinsicBounds(0, 0, R.drawable.ic_new, 0)
+            holder.text.compoundDrawablePadding = 8
+        } else {
+            holder.text.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0)
+        }
 
+        holder.card.setOnClickListener {
             mediaPlayer?.release()
             mediaPlayer = null
 
@@ -63,9 +69,20 @@ class AdapterSories(
             "story_8" -> R.raw.monkey
             "story_9" -> R.raw.rabbit
             "story_10" -> R.raw.pinguin
+            "story_11" -> R.raw.tiger
+            "story_12" -> R.raw.turtle
+            "story_13" -> R.raw.bear
+            "story_14" -> R.raw.dear
+            "story_15" -> R.raw.owl
+            "story_16" -> R.raw.fox
+            "story_17" -> R.raw.sloth
+            "story_18" -> R.raw.wolf
+            "story_19" -> R.raw.ant
+            "story_20" -> R.raw.bee
             else -> R.raw.duck
         }
     }
+
     fun release() {
         mediaPlayer?.release()
         mediaPlayer = null

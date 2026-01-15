@@ -30,4 +30,27 @@
     <string name="font_size">حجم الخط</string>
     <string name="this_is_a_sample_text_preview">هذا نص تجريبي للمعاينة.</string>
     <string name="select_size">اختر الحجم:</string>
+    <string name="the_story_of_a_tiger">قصة النمر</string>
+    <string name="the_story_of_a_turtle">قصة السلحفاة</string>
+    <string name="the_story_of_a_bear">قصة الدب</string>
+    <string name="the_story_of_a_dear">قصة الغزال</string>
+    <string name="the_story_of_a_owl">قصة البومة</string>
+    <string name="the_story_of_a_sloth">قصة الكسلان</string>
+    <string name="the_story_of_a_fox">قصة الثعلب</string>
+    <string name="the_story_of_a_wolf">قصة الذئب</string>
+    <string name="the_story_of_a_ant">قصة النملة</string>
+    <string name="the_story_of_a_bee">قصة النحلة</string>
+    <string name="play">تشغيل</string>
+    <string name="party">حفلة</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="stop">إيقاف</string>
+    <string name="language_not_supported">اللغة غير مدعومة</string>
+    <string name="story_not_found">القصة غير موجودة</string>
+    <string name="speech_error_occurred">حدث خطأ في النطق</string>
+    <string name="welcome_kids">مرحبًا يا أطفال</string>
+    <string name="welcome_the_party_d">مرحبًا بالحفلة :D</string>
+    <string name="small_selected">تم اختيار الحجم الصغير</string>
+    <string name="medium_selected">تم اختيار الحجم المتوسط</string>
+    <string name="large_selected">تم اختيار الحجم الكبير</string>
+
 </resources>

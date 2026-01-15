@@ -30,4 +30,27 @@
     <string name="font_size">Taille de la police</string>
     <string name="this_is_a_sample_text_preview">Ceci est un aperçu de texte exemple.</string>
     <string name="select_size">Sélectionner la taille :</string>
+    <string name="the_story_of_a_tiger">L histoire d un tigre</string>
+    <string name="the_story_of_a_turtle">L histoire d une tortue</string>
+    <string name="the_story_of_a_bear">L histoire d un ours</string>
+    <string name="the_story_of_a_dear">L histoire d un cerf</string>
+    <string name="the_story_of_a_owl">L histoire d un hibou</string>
+    <string name="the_story_of_a_sloth">L histoire d un paresseux</string>
+    <string name="the_story_of_a_fox">L histoire d un renard</string>
+    <string name="the_story_of_a_wolf">L histoire d un loup</string>
+    <string name="the_story_of_a_ant">L histoire d une fourmi</string>
+    <string name="the_story_of_a_bee">L histoire d une abeille</string>
+    <string name="play">Lire</string>
+    <string name="party">FÊTE</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Arrêter</string>
+    <string name="language_not_supported">Langue non prise en charge</string>
+    <string name="story_not_found">Histoire introuvable</string>
+    <string name="speech_error_occurred">Une erreur de lecture vocale s est produite</string>
+    <string name="welcome_kids">Bienvenue les enfants</string>
+    <string name="welcome_the_party_d">Bienvenue à la fête :D</string>
+    <string name="small_selected">Petit sélectionné</string>
+    <string name="medium_selected">Moyen sélectionné</string>
+    <string name="large_selected">Grand sélectionné</string>
+
 </resources>

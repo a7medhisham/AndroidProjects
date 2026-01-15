@@ -71,15 +71,15 @@ class SettingActivity : AppCompatActivity() {
     private fun handleSizeChange(checkedId: Int) {
         selectedSize = when(checkedId) {
             R.id.st -> {
-                Toast.makeText(this, "Small selected", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.small_selected), Toast.LENGTH_SHORT).show()
                 16
             }
             R.id.mt -> {
-                Toast.makeText(this, "Medium selected", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.medium_selected), Toast.LENGTH_SHORT).show()
                 22
             }
             R.id.lt -> {
-                Toast.makeText(this, "Large selected", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.large_selected), Toast.LENGTH_SHORT).show()
                 28
             }
             else -> 22

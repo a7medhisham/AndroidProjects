@@ -30,4 +30,27 @@
     <string name="font_size">Schriftgröße</string>
     <string name="this_is_a_sample_text_preview">Dies ist eine Beispieltext-Vorschau.</string>
     <string name="select_size">Größe auswählen:</string>
+    <string name="the_story_of_a_tiger">Die Geschichte eines Tigers</string>
+    <string name="the_story_of_a_turtle">Die Geschichte einer Schildkröte</string>
+    <string name="the_story_of_a_bear">Die Geschichte eines Bären</string>
+    <string name="the_story_of_a_dear">Die Geschichte eines Hirsches</string>
+    <string name="the_story_of_a_owl">Die Geschichte einer Eule</string>
+    <string name="the_story_of_a_sloth">Die Geschichte eines Faultiers</string>
+    <string name="the_story_of_a_fox">Die Geschichte eines Fuchses</string>
+    <string name="the_story_of_a_wolf">Die Geschichte eines Wolfs</string>
+    <string name="the_story_of_a_ant">Die Geschichte einer Ameise</string>
+    <string name="the_story_of_a_bee">Die Geschichte einer Biene</string>
+    <string name="play">Abspielen</string>
+    <string name="party">PARTY</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stopp</string>
+    <string name="language_not_supported">Sprache nicht unterstützt</string>
+    <string name="story_not_found">Geschichte nicht gefunden</string>
+    <string name="speech_error_occurred">Sprachfehler ist aufgetreten</string>
+    <string name="welcome_kids">Willkommen Kinder</string>
+    <string name="welcome_the_party_d">Willkommen zur Party :D</string>
+    <string name="small_selected">Klein ausgewählt</string>
+    <string name="medium_selected">Mittel ausgewählt</string>
+    <string name="large_selected">Groß ausgewählt</string>
+
 </resources>

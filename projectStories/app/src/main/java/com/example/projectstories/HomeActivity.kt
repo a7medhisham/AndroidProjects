@@ -71,7 +71,8 @@ class HomeActivity : AppCompatActivity() {
 
                     override fun onError(utteranceId: String?) {
                         runOnUiThread {
-                            Toast.makeText(this@HomeActivity, "Speech error occurred", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@HomeActivity,
+                                getString(R.string.speech_error_occurred), Toast.LENGTH_SHORT).show()
                         }
                     }
                 })
@@ -106,7 +107,7 @@ class HomeActivity : AppCompatActivity() {
     private fun loadStory(storyId: String) {
         lifecycleScope.launch {
             story = repository.getStoryById(storyId)
-            if (story == null) showError("Story not found")
+            if (story == null) showError(getString(R.string.story_not_found))
             else {
                 setupUI(story!!)
                 showLoading(false)
@@ -154,7 +155,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         if (tts.setLanguage(locale) < 0) {
-            Toast.makeText(this, "Language not supported", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.language_not_supported), Toast.LENGTH_LONG).show()
             return
         }
 
