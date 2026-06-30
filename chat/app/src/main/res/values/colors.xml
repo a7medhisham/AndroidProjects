@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Backgrounds -->
+    <color name="bg_screen">#0F1218</color>
+    <color name="bg_topbar">#1A1F2E</color>
+    <color name="bg_panel">#141926</color>
+    <color name="bg_bubble_bot">#1E2535</color>
+    <color name="bg_bubble_user">#1A3F7A</color>
+    <color name="bg_code">#0D1117</color>
+    <color name="input_bg">#1E2840</color>
+
+    <!-- Text -->
+    <color name="text_primary">#E2E8F8</color>
+    <color name="text_muted">#7A8AAA</color>
+    <color name="text_bubble_bot">#C8D8F0</color>
+    <color name="text_bubble_user">#DDEEFF</color>
+    <color name="text_code">#C9D1D9</color>
+
+    <!-- Syntax highlighting -->
+    <color name="code_keyword">#FF7B72</color>
+    <color name="code_identifier">#79C0FF</color>
+    <color name="code_comment">#8B949E</color>
+    <color name="code_string">#A5D6FF</color>
+
+    <!-- Chips -->
+    <color name="chip_bg">#1A2340</color>
+    <color name="chip_text">#7A9DE0</color>
+    <color name="chip_stroke">#2D3D6A</color>
+    <color name="chip_selected_bg">#1A3F7A</color>
+    <color name="chip_selected_text">#DDEEFF</color>
+
+    <!-- Borders & strokes -->
+    <color name="input_stroke">#2D3D6A</color>
+    <color name="code_border">#30363D</color>
+    <color name="divider">#222B40</color>
+
+    <!-- FAB -->
+    <color name="fab_bg">#1A3F7A</color>
+    <color name="fab_icon">#79C0FF</color>
+    <color name="fab_ripple">#2D5EA8</color>
+
+    <!-- Avatar -->
+    <color name="avatar_bot_bg">#1E3A5F</color>
+    <color name="avatar_bot_text">#79C0FF</color>
+    <color name="avatar_user_bg">#1A3F7A</color>
+    <color name="avatar_user_text">#DDEEFF</color>
+    <color name="text_purple">#A78BFA</color>
+
+</resources>

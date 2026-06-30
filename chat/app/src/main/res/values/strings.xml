@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Generate Chat Vhdl Code</string>
+    <string name="hint_chat_input">Ask for VHDL code…</string>
+    <string name="hint_entity">Entity_1</string>
+    <string name="hint_arch">Arch_1</string>
+    <string name="label_format">Format</string>
+    <string name="label_entity">Entity</string>
+    <string name="label_arch">Arch</string>
+    <string name="cd_send">Send message</string>
+    <string name="welcome_message">Hi! Choose a component from the chips above, or type your request and I\'ll generate the VHDL code for you.</string>
+
+    <string-array name="format_options">
+        <item>function</item>
+        <item>procedure</item>
+        <item>standard</item>
+    </string-array>
+
+    <string-array name="component_options">
+        <item>MUX</item>
+        <item>DeMUX</item>
+        <item>Decoder</item>
+        <item>Encoder</item>
+        <item>Shift Register (SIPO)</item>
+        <item>Shift Register (PISO)</item>
+        <item>SRAM</item>
+        <item>ROM</item>
+        <item>Clock Divider</item>
+    </string-array>
+</resources>
