@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/history"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#195A8E"
+            android:shadowColor="#000"
+            android:layout_marginVertical="10dp" />
+
+        <TableLayout
+            android:layout_margin="10dp"
+            android:id="@+id/tableLayoutHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="@drawable/table"
+            android:padding="8dp">
+
+            <TableRow
+                android:background="#DCEBF7"
+                android:padding="6dp">
+
+                <TextView
+                    android:text="@string/date"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:text="@string/type"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:text="@string/weight"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+
+                <TextView
+                    android:text="@string/points"
+                    android:textStyle="bold"
+                    android:padding="8dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

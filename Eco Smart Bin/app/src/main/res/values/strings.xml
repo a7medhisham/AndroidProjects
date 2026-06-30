@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartGarbage</string>
+
+    <!-- Auth & General -->
+    <string name="already_user">Already a user?</string>
+    <string name="forget"><u>Forgot your password?</u></string>
+    <string name="Not"><u>Not a User?</u></string>
+    <string name="exit">Exit</string>
+    <string name="do_you_want_to_exit">Do you want to exit?</string>
+    <string name="no">No</string>
+    <string name="missing_fields">Missing fields</string>
+    <string name="password_too_short">Password too short</string>
+    <string name="unknown">Unknown</string>
+    <string name="welcome">Welcome</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <!-- Login & Signup -->
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="login">Login</string>
+    <string name="user">User</string>
+    <string name="worker">Worker</string>
+    <string name="select_account_type">Select account type</string>
+    <string name="are_you_worker_or_user">Are you a worker or a user?</string>
+    <string name="please_select_the_account_type_first_user_or_worker">Please select the account type first User or Worker</string>
+    <string name="signed_in_successfully">Signed in successfully</string>
+    <string name="authentication_failed">Authentication Failed</string>
+    <string name="google_sign_in_failed">Google Sign In Failed</string>
+    <string name="please_enter_your_email_first">Please enter your email first</string>
+    <string name="email_sent">Email sent!</string>
+    <string name="check_your_email">Check your email!</string>
+
+    <!-- Password Reset -->
+    <string name="user_id_sent_to_server">User ID sent to server</string>
+    <string name="server_error">Server error</string>
+    <string name="failed">Failed: %1$s</string>
+
+    <!-- Home Tabs -->
+    <string name="notification">Notification</string>
+    <string name="points">Points</string>
+    <string name="history">History</string>
+    <string name="extra">Extra</string>
+    <string name="nearby_bins">Nearby Bins</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="address_region">Address / Region</string>
+    <string name="total_points">Total Points</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_account2">Delete Account</string>
+    <string name="are_you_sure_you_want_to_delete_your_account_this_action_cannot_be_undone">Are you sure you want to delete your account? This action cannot be undone.</string>
+    <string name="account_deleted_successfully">Account deleted successfully</string>
+    <string name="failed_to_delete_account">Failed to delete account: %1$s</string>
+    <string name="no_user_logged_in">No user logged in</string>
+    <string name="user_not_logged_in">User not logged in</string>
+    <string name="logged_out_successfully">Logged out successfully</string>
+    <string name="unknown_user">Unknown User</string>
+    <string name="city_country_format">%s, %s</string>
+    <string name="lat_lon_format">Latitude: %s\nLongitude: %s</string>
+    <string name="location_not_available">Location not available</string>
+
+    <!-- Profile Image -->
+    <string name="profile_image_selected">Profile image selected</string>
+    <string name="profile_image_deleted">Profile image deleted</string>
+    <string name="choose_new_image">Choose New Image</string>
+    <string name="delete_current_image">Delete Current Image</string>
+    <string name="profile_image_options">Profile Image Options</string>
+    <string name="please_choose_a_profile_picture">Please choose a profile picture</string>
+
+    <!-- Dark/Light Mode -->
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+
+    <!-- Emergency -->
+    <string name="emergency">Emergency</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="police">Police</string>
+    <string name="fire_station">Fire Station</string>
+    <string name="support_team">Support Team</string>
+
+    <!-- Points & Rewards -->
+    <string name="type_reward">Type: Reward</string>
+    <string name="date_label">Date: %s</string>
+    <string name="points_redeemed_label">Points Redeemed: %d</string>
+    <string name="amount_label">Amount: %.2f EGP</string>
+    <string name="date_2025_10_15">Date: 2025-10-15</string>
+    <string name="points_redeemed_50">Points Redeemed: 50</string>
+    <string name="amount_25_egp">Amount: 25 EGP</string>
+    <string name="hmskegy">HAMSKEGY</string>
+    <string name="sponsor">Sponsor</string>
+
+    <!-- History -->
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+    <string name="weight">Weight</string>
+    <string name="no_data_available">No data available</string>
+    <string name="plastic">Plastic</string>
+    <string name="paper">Paper</string>
+    <string name="glass">Glass</string>
+    <string name="metal">Metal</string>
+    <string name="organic">Organic</string>
+
+    <!-- Notifications -->
+    <string name="status_label">Status: %s</string>
+    <string name="status_unseen">Status: Unseen</string>
+    <string name="needs_emptying">Needs emptying</string>
+    <string name="ok">yes</string>
+    <string name="ok_status"> OK</string>
+    <string name="smartgarbage_notifications">SmartGarbage Notifications</string>
+    <string name="notification_channel_name">Smart Garbage Notifications</string>
+    <string name="no_notifications">No notifications</string>
+    <string name="marked_as_read">Marked as read</string>
+    <string name="the_basket_is_full">The basket is full</string>
+    <string name="a_new_smart_bin_has_been_added_near_you">A new smart bin has been added near you</string>
+
+    <!-- Staff Notifications -->
+    <string name="bin_status_message">Bin #%d is %d%% full</string>
+    <string name="no_bins_found">No bins found</string>
+
+    <!-- QR Code -->
+    <string name="code_detected">Code detected: %1$s</string>
+    <string name="no_code_detected">No code detected</string>
+    <string name="focus_the_camera_on_the_qr_code">Focus the camera on the QR code.</string>
+    <string name="qr_detected">QR Detected: %1$s</string>
+    <string name="no_qr_detected">No QR detected</string>
+
+    <!-- Location -->
+    <string name="locate_you">Locate you</string>
+    <string name="we_are_currently_determining_your_precise_location_please_wait">We are currently determining your precise location, please wait...</string>
+    <string name="your_location_has_been_successfully_determined">Your location has been successfully determined.</string>
+    <string name="unable_to_determine_location_please_try_again">Unable to determine location, please try again.</string>
+    <string name="an_error_occurred_while_determining_the_location">An error occurred while determining the location.</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="unable_to_get_location">Unable to get location</string>
+    <string name="no_nearby_bins">No nearby bins found</string>
+
+    <!-- Bin Status -->
+    <string name="bin_number">Bin #%d</string>
+    <string name="fill_level">Fill Level: %d%%</string>
+    <string name="bin_full_status">🔴 FULL - Needs emptying</string>
+    <string name="bin_partial_status">🟡 Partially full</string>
+    <string name="bin_empty_status">🟢 Empty/OK</string>
+
+    <!-- Data Messages -->
+    <string name="user_data_sent_to_server">User data sent to server</string>
+    <string name="failed_to_send_user_data">Failed to send user data: %s</string>
+    <string name="data_sent_successfully">Data sent successfully </string>
+
+    <!-- Errors -->
+    <string name="error_message">Error: %d</string>
+    <string name="failed_message">Failed: %s</string>
+    <string name="error_message_num">Error: %d</string>
+    <string name="failed_message_text">Failed: %s</string>
+    <string name="failed_message_code">Failed: %d</string>
+    <string name="error_message_text">Error: %s</string>
+
+    <!-- Dates -->
+    <string name="_2025_10_17_12_00">2025-10-17 12:00</string>
+
+    <!-- Other -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="region">Region</string>
+    <string name="default_web_client_id"></string>
+    <string name="this_application_supports_english_arabic_german_and_french_languages">This application supports English, Arabic, German, and French languages</string>
+    <string name="you_need_to_allow_the_website_access_to_complete_the_registration">You need to allow the website access to complete the registration.</string>
+    <string name="phonekan">PhoneKan</string>
+    <string name="you_are_not_authorized_to_access_worker_panel_please_contact_support">You are not authorized to access worker panel. Please contact support.</string>
+    <string name="logged_in_successfully">Logged in successfully! 🎉</string>
+    <string name="you_are_not_authorized_to_login_as_a_worker_only_specific_emails_are_allowed">You are not authorized to login as a worker. Only specific emails are allowed.</string>
+    <string name="registration_successful_please_verify_your_email_before_logging_in">Registration successful! Please verify your email before logging in.</string>
+    <string name="you_are_not_authorized_to_register_as_a_worker_only_specific_emails_are_allowed">You are not authorized to register as a worker. Only specific emails are allowed.</string>
+    <string name="please_complete_your_profile_setup">Please complete your profile setup</string>
+    <!-- Reward Activity -->
+    <string name="you_have_points">💰 You have %d points</string>
+    <string name="we_pay">We Pay</string>
+    <string name="vodafone_cash">Vodafone Cash</string>
+    <string name="orange_pay">Orange Pay</string>
+    <string name="insta_pay">Insta Pay</string>
+    <string name="withdraw_via">Withdraw via %s</string>
+    <string name="you_will_receive">💰 You will receive: %.2f EGP</string>
+    <string name="not_enough_points">❌ You don\'t have enough points! Available: %d</string>
+    <string name="enter_valid_points">❌ Please enter valid points</string>
+    <string name="confirm_withdraw_message">Are you sure you want to withdraw %d points (%.2f EGP) to %s: %s?</string>
+    <string name="phone_number_11_digits">Phone number must be 11 digits</string>
+    <string name="invalid_phone_number">❌ Invalid phone number (must start with 010, 011, or 012)</string>
+    <string name="enter_valid_phone">Please enter a valid phone number (11 digits starting with 010/011/012)</string>
+    <string name="account_number_8_12">Account number must be 8-12 digits</string>
+    <string name="invalid_account_number">❌ Invalid account number (digits only)</string>
+    <string name="enter_valid_account">Please enter a valid account number (8-12 digits)</string>
+    <string name="invalid_phone_number_prefix">❌ Phone number must start with %s</string>
+    <string name="enter_valid_phone_prefix">Please enter a valid phone number starting with %s (11 digits)</string>
+    <string name="no_points_to_redeem">You don\'t have enough points to redeem. Collect more points first!</string>
+    <string name="number">Number</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="scan_result">Scan result: %s</string>
+    <string name="scan_cancelled">Scan cancelled</string>
+    <string name="scan_qr_prompt">Place QR code inside the frame</string>
+    <string name="qr_generation_error">QR generation error: %s</string>
+    <string name="my_qr_code">MY QR CODE</string>
+    <string name="user_qr">User QR</string>
+    <string name="scan_to_recycle">Scan to recycle</string>
+    <string name="alert_message">Alert #%d - Bin %d: %s waste</string>
+    <string name="no_alerts">No alerts found</string>
+    <string name="trach">trach</string>
+    <string name="alerts_count">📢 %d alerts available</string>
+    <string name="alerts">Alerts</string>
+    <string name="status_changed_to_active">Status changed to Active</string>
+    <string name="status_already_active">Status is already %s</string>
+    <string name="alert_synced_with_server"> Alert synced with server</string>
+    <string name="local_only_server_error"> Local only (server error: %d)</string>
+    <string name="local_only_no_connection"> Local only (no connection)</string>
+    <string name="already_completed">Already completed</string>
+    <string name="enter_fill_level">Enter fill level (0-100)</string>
+    <string name="update_bin_title">Update Bin #%d Fill Level</string>
+    <string name="update">Update</string>
+    <string name="enter_valid_number">Enter valid number 0-100</string>
+    <string name="fill_level_updated">Fill level updated</string>
+    <string name="already_resolved">Already resolved</string>
+    <string name="points_added"> Added %d points</string>
+    <string name="points_local_only"> Points added locally but API sync failed</string>
+    <string name="points_error"> Points added locally but API error</string>
+    <string name="points_updated_successfully">Points updated successfully</string>
+</resources>

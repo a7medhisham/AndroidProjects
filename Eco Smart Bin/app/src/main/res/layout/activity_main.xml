@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_layout_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:id="@+id/backgroundGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:rowCount="8"
+            android:columnCount="8"
+            android:useDefaultMargins="true"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            android:layout_marginTop="-24dp"
+            android:layout_marginBottom="-24dp" />
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingBottom="80dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/themeToggleButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginBottom="12dp"
+                android:padding="0dp"
+                app:cornerRadius="24dp"
+                android:drawableStart="@drawable/iosmoon"
+                android:text=""
+                android:layout_gravity="end"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieSignUp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/green_eco_earth_animation" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_account"
+                android:textSize="26sp"
+                android:textColor="#28ADA4"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_light"
+                android:hint="@string/full_name"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_light"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/bg_light"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:padding="12dp" />
+            <RadioGroup
+                android:id="@+id/roleGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/radioUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user"
+                    android:checked="false"/>
+
+                <RadioButton
+                    android:id="@+id/radioWorker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/worker"
+                    android:checked="false"
+                    android:layout_marginStart="20dp"/>
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#38A169"
+                android:text="@string/create_account"
+                android:textAllCaps="false"
+                android:textColor="#FFFAFA" />
+
+            <Button
+                android:id="@+id/btnGoogleSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_light"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/google"
+                android:elevation="4dp"
+                android:padding="10dp"
+                android:text="@string/sign_in_with_google"
+                android:textColor="#36993A" />
+
+            <TextView
+                android:id="@+id/already_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="@string/already_user"
+                android:textColor="#36993A" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:visibility="invisible"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/toastLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/be_light"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:visibility="gone">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieToast"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:lottie_autoPlay="false"
+                app:lottie_loop="false" />
+
+            <TextView
+                android:id="@+id/toastMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textColor="#9575CD"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>
