@@ -1,67 +1,89 @@
 📱Android Projects Portfolio
 
-Welcome! Here are some of my Android applications built using Kotlin, Firebase, MVVM, and modern Android technologies.
+Welcome! Here are some of my Android applications built using Kotlin, Firebase, MVVM, and modern Android technologies
 
-🚀 Featured Projects
+## 🚀 Featured Projects
 
-♻️ Eco Smart Bin
+### ♻️ Eco Smart Bin
+A smart recycling application developed as a graduation project. It encourages users to recycle through QR code scanning, rewards them with points, and allows them to redeem prizes. The system also provides notifications and nearby smart bin locations.
 
-Smart recycling application with QR Code scanning, reward points, notifications, and nearby smart bins.
+**Technologies:** Kotlin, Firebase, Room, Retrofit, FCM, ZXing QR Scanner, MVVM
 
-Tech Stack: Kotlin • Firebase • Room • FCM • ZXing • MVVM
+---
 
-🔗 Repository: https://github.com/a7medhisham/Eco-Smart-Bin
+### 🥗 Healthy Food AI Chatbot
+An AI-powered Android application that provides personalized healthy meal recommendations based on users' fitness goals through an intelligent chatbot.
 
-🥗 Healthy Food AI Chatbot
+**Technologies:** Kotlin, Firebase, Mistral AI, Room Database
 
-AI-powered chatbot that provides personalized healthy meal recommendations.
+---
 
-Tech Stack: Kotlin • Firebase • Mistral AI • Room
+### 🍿 Movies App
+A modern movie application that allows users to browse trending movies, search for titles, view movie details, and manage their favorite movies with secure authentication.
 
-🔗 Repository: https://github.com/a7medhisham/Healthy-Food-AI-App
+**Technologies:** Kotlin, Retrofit, Firebase, Room Database
 
-🍿 Movies App
+---
 
-Movie browsing application with search, favorites, authentication, and modern UI.
+### 📰 News App
+A news application that displays the latest headlines from multiple categories with a clean interface, fast loading, and detailed article views.
 
-Tech Stack: Kotlin • Retrofit • Firebase • Room
+**Technologies:** Kotlin, Retrofit, REST API, MVVM
 
-🔗 Repository: https://github.com/a7medhisham/Movies
+---
 
-📰 News App
+### 📖 Stories App
+A simple and engaging storytelling application where users can explore different stories through an easy-to-use and visually appealing interface.
 
-Modern Android application for reading the latest news.
+**Technologies:** Kotlin, Firebase, Material Design
 
-🔗 Repository
+---
 
-💬 Chat Application
+### 💬 Chat Application
+A chatbot application that supports intelligent conversations while storing chat history locally for offline access.
 
-Real-time chat application.
+**Technologies:** Kotlin, Room Database, AI API
 
-🔗 Repository
+---
 
-📄 Personal CV App
+### 🧮 Basket Points Calculator
+An Android application that calculates basketball game points quickly and accurately using a simple and user-friendly interface.
 
-Interactive Android CV application.
+**Technologies:** Kotlin, Android SDK
 
-🔗 Repository
+---
 
-🛠 Skills
-Kotlin
-MVVM
-Firebase
-Room Database
-Retrofit
-REST APIs
-Material Design
-ViewBinding
-Lottie
-AI Integration
+### 📄 Personal CV App
+A digital portfolio application that presents personal information, skills, projects, and contact details in a modern Android interface.
 
-👨‍💻 About Me
-Ahmed Hisham
-Computer Engineering ||
-Android Developer
-Ahmed Hisham
-Computer Engineering Student
-Android Developer
+**Technologies:** Kotlin, Material Design
+
+---
+
+## 🛠 Skills & Technologies
+
+- Kotlin
+- MVVM Architecture
+- Firebase Authentication
+- Firebase Firestore
+- Firebase Cloud Messaging
+- REST APIs
+- Retrofit
+- Room Database
+- Google Sign-In
+- ViewBinding
+- Material Design
+- Lottie Animation
+- SharedPreferences
+- ZXing QR Scanner
+- AI Integration
+
+---
+
+## 👨‍💻 About Me
+
+**Ahmed Hisham**
+
+Computer Engineering Student | Android Developer
+
+⭐ Feel free to explore my repositories and don't forget to leave a star if you like my work!
