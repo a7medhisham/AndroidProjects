@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Chat Bot</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="already_user">Already User</string>
+    <string name="not_user">Not User</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="check_your_email">Check Your Email</string>
+    <string name="google_sign_in_failed">Google Sign In Failed</string>
+    <string name="authentication_failed">Authentication Failed</string>
+    <string name="exit">Exit</string>
+    <string name="do_you_want_to_exit">Do You Want To Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="missing_fields">Missing Fields</string>
+    <string name="password_too_short">Password Too Short</string>
+    <string name="please_enter_your_email_first">Please Enter Your Email First</string>
+    <string name="email_sent">Email Sent</string>
+    <string name="failed">Failed</string>
+    <string name="filled">Filled</string>
+    <string name="guest">Guest</string>
+</resources>
