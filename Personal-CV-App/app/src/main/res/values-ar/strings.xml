@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سيرتي الذاتية</string>
+    <string name="profile_image">صورة الملف الشخصي</string>
+    <string name="change_photo">تغيير الصورة</string>
+    <string name="contact_info">معلومات الاتصال</string>
+    <string name="social_links">روابط التواصل</string>
+    <string name="open_link">افتح الرابط</string>
+    <string name="name">أحمد هشام عزت</string>
+    <string name="title">مطور أندرويد مبتدئ</string>
+    <string name="location">القاهرة، مصر</string>
+    <string name="email">ahmed.dev@gmail.com</string>
+    <string name="linkedin">حساب لينكدإن</string>
+    <string name="github">حساب GitHub</string>
+    <string name="edu_college">الأكاديمية الحديثة للهندسة والتكنولوجيا</string>
+    <string name="edu_degree">بكالوريوس هندسة حاسبات (قسم الهندسة الكهربائية)</string>
+    <string name="edu_gpa">المعدل التراكمي: 3.56</string>
+    <string name="edu_location">القاهرة، مصر | متوقع 2026</string>
+    <string name="skills_programming_title">لغات البرمجة:</string>
+    <string name="skills_programming">Kotlin، C++، JavaScript، Python (أساسيات)</string>
+    <string name="skills_mobile_title">تطوير الموبايل:</string>
+    <string name="skills_mobile">Android (Kotlin)، Firebase (Auth, Firestore, Realtime DB)، MVVM، RecyclerView، Retrofit، Glide</string>
+    <string name="skills_databases_title">قواعد البيانات:</string>
+    <string name="skills_databases">MySQL، SQLite، ERD، تصميم المخطط، استعلامات SQL</string>
+    <string name="skills_frontend_title">تطوير الواجهة الأمامية:</string>
+    <string name="skills_frontend">HTML، CSS، JavaScript</string>
+    <string name="skills_tools_title">أدوات وتقنيات:</string>
+    <string name="skills_tools">Git، GitHub، Android Studio، VS Code، OpenCV (أساسيات)، Arduino (أساسيات)</string>
+    <string name="project_movies_title">تطبيق الأفلام</string>
+    <string name="project_movies_tech">تطبيق أندرويد مبني بـ Kotlin، Firebase وREST APIs</string>
+    <string name="project_movies_desc1">• عرض الأفلام الشهيرة باستخدام REST APIs</string>
+    <string name="project_movies_desc2">• دمج Firebase Auth و Firestore مع بنية MVVM</string>
+    <string name="project_news_title">تطبيق الأخبار</string>
+    <string name="project_news_tech">تطبيق أندرويد مبني بـ Kotlin وAPIs</string>
+    <string name="project_news_desc">• جلب الأخبار في الوقت الفعلي مع تصنيف حسب الفئات</string>
+    <string name="project_kids_title">تطبيق قصص الأطفال</string>
+    <string name="project_kids_tech">تطبيق أندرويد مبني بـ Kotlin وFirebase</string>
+    <string name="project_kids_desc">• تطبيق قصص متعددة الوسائط باستخدام Firebase Firestore وStorage</string>
+    <string name="project_web_title">تطبيق ويب لبيع المنتجات</string>
+    <string name="project_web_tech">موقع ويب مبني بـ HTML، CSS، JavaScript</string>
+    <string name="project_web_desc">• موقع منتجات مصنف حسب الفئات مع واجهة مستخدم نظيفة</string>
+    <string name="project_db_title">مشاريع نظم قواعد البيانات</string>
+    <string name="project_db_tech">مبني بـ SQL وERD</string>
+    <string name="project_db_desc">• تصميم قواعد بيانات لمطاعم وأنظمة القمامة الذكية</string>
+    <string name="course_android">دورة تطوير أندرويد</string>
+    <string name="course_russian">المركز الثقافي الروسي</string>
+    <string name="course_front_db">أساسيات الواجهة الأمامية وقواعد البيانات</string>
+    <string name="course_faculty">دورات الكلية</string>
+    <string name="soft_skills">حل المشكلات، العمل الجماعي، التعلم الذاتي، إدارة الوقت</string>
+    <string name="lang_ar">العربية: اللغة الأم</string>
+    <string name="lang_en">الإنجليزية: متوسطة</string>
+    <string name="professional_summary">ملخص مهني:</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="ahmed_hisham_ezzat">أحمد هشام عزت</string>
+    <string name="Junior_android_developer">مطور أندرويد مبتدئ</string>
+    <string name="contact_information">معلومات الاتصال</string>
+    <string name="cairo_egypt">القاهرة، مصر</string>
+    <string name="ahmed_dev_gmail_com">ahmed.dev@gmail.com</string>
+    <string name="linkedin_profile">حساب لينكدإن</string>
+    <string name="github_profile">حساب GitHub</string>
+    <string name="welcome">أهلاً بك</string>
+    <string name="no_email_app_found">لم يتم العثور على تطبيق بريد إلكتروني</string>
+    <string name="cannot_open_link">لا يمكن فتح الرابط</string>
+    <string name="cancel">إلغاء</string>
+    <string name="saved">تم الحفظ!</string>
+    <string name="save">حفظ</string>
+    <string name="edit">تعديل %1$s</string>
+    <string name="final_year_computer_engineering_student_electrical_engineering_department_building_skills_in_software_development_embedded_systems_and_database_design_proficient_in_c_and_android_development_kotlin_with_experience_in_relational_databases_using_mysql_including_erd_and_sql_queries_seeking_a_junior_role_to_apply_knowledge_and_grow_professionally">
+        طالب سنة نهائية هندسة حاسبات (قسم الهندسة الكهربائية)، يبني مهاراته في تطوير البرمجيات، الأنظمة المدمجة، وتصميم قواعد البيانات.
+        بارع في C++ وتطوير أندرويد (Kotlin)، مع خبرة في قواعد البيانات العلائقية باستخدام MySQL بما في ذلك ERD واستعلامات SQL.
+        يبحث عن وظيفة مبتدئ لتطبيق المعرفة والنمو المهني.
+    </string>
+</resources>

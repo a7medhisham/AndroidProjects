@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_programming_title"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:background="#FCE4EC"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_programming"
+            android:padding="12dp"
+            android:background="#F3E5F5"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_mobile_title"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:background="#E3F2FD"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_mobile"
+            android:padding="12dp"
+            android:background="#E1F5FE"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Databases Skills -->
+        <TextView
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_databases_title"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:background="#E8F5E9"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_databases"
+            android:padding="12dp"
+            android:background="#F1F8E9"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_frontend_title"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:background="#FFF3E0"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_frontend"
+            android:padding="12dp"
+            android:background="#FFF8E1"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_tools_title"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:background="#EFEBE9"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills_tools"
+            android:padding="12dp"
+            android:background="#FAFAFA"/>
+
+    </LinearLayout>
+</ScrollView>

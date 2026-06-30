@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="child">نجده الطفل</string>
+    <string name="police">شرطه</string>
+    <string name="fire_truck">مطافي</string>
+    <string name="exit">خروج</string>
+    <string name="do_you_want_to_exit">هل تريد الخروج :(</string>
+    <string name="ok">نعم</string>
+    <string name="no">لا</string>
+</resources>

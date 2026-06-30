@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_summary"
+            android:icon="@drawable/ic_description"
+            android:title="Summary" />
+        <item
+            android:id="@+id/nav_education"
+            android:icon="@drawable/ic_school"
+            android:title="Education" />
+        <item
+            android:id="@+id/nav_skills"
+            android:icon="@drawable/ic_code"
+            android:title="Technical Skills" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/ic_work"
+            android:title="Projects" />
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/ic_card_membership"
+            android:title="Courses and Certifications" />
+        <item
+            android:id="@+id/nav_soft_skills"
+            android:icon="@drawable/ic_groups"
+            android:title="Soft Skills" />
+        <item
+            android:id="@+id/nav_languages"
+            android:icon="@drawable/ic_language"
+            android:title="Languages" />
+    </group>
+</menu>

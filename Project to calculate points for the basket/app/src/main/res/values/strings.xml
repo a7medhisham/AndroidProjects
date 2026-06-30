@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="child">Child Rescue</string>
+    <string name="police">Police</string>
+    <string name="fire_truck">Fire Truck</string>
+    <string name="exit">Exit</string>
+    <string name="do_you_want_to_exit">do_you_want_to_exit</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+</resources>

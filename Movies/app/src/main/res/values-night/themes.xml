@@ -1,0 +1,12 @@
+<resources>
+    <style name="Base.Theme.Movies" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorAccentDark</item>
+    </style>
+
+    <style name="Theme.Movies" parent="Base.Theme.Movies" />
+<style name="CircleImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
